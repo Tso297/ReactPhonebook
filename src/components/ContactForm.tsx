@@ -48,15 +48,15 @@ interface ContactFormProps {
         </div>
         <div>
           <label htmlFor="email">Email</label>
-          <Input {...register('name')} name ='email' placeholder="Email"/>
+          <Input {...register('email')} name ='email' placeholder="Email"/>
         </div>
         <div>
           <label htmlFor="phone_number">Phone Number</label>
-          <Input {...register('name')} name ='phone_number' placeholder="Phone Number"/>
+          <Input {...register('phone_number')} name ='phone_number' placeholder="Phone Number"/>
         </div>
         <div>
           <label htmlFor="address">Address</label>
-          <Input {...register('name')} name ='address' placeholder="Address"/>
+          <Input {...register('address')} name ='address' placeholder="Address"/>
         </div>
         <div className="flex p-1">
           <Button
