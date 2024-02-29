@@ -1,7 +1,7 @@
 import ContactForm from './ContactForm';
 
 type Props = {
-    id?: string[];
+    id: string[];
     open: boolean;
     onClose: () => void;
 }
