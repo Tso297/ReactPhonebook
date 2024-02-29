@@ -10,7 +10,7 @@ import AuthChecker from './auth/AuthChecker';
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
         <Provider store={store}>
           <Routes>
@@ -31,7 +31,7 @@ function App() {
             )) }
           </Routes>
         </Provider>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
