@@ -17,7 +17,6 @@ function DataTable() {
     const [open, setOpen] = useState(false);
     const { contactData, getData } = useGetData();
     const [ selectionModel, setSelectionModel ] = useState<string[]>([])
-    // TODO: write useGetData hook and selection model state change content
 
     const handleOpen = () => {
         setOpen(true)
